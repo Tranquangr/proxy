@@ -33,7 +33,7 @@ app.get("/callback", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Hello World đã sửa rồi yên tâm đi nhé");
 });
 
 app.listen(port, () => {

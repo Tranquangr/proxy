@@ -6,7 +6,7 @@ const port = 8080;
 const CLIENT_ID =
   "Y869487743288-p9v1d0gsd9htpj36d4fdiq22u7ea2ing.apps.googleusercontent.com";
 const CLIENT_SECRET = "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";
-const REDIRECT_URI = "https://truyentranhpl.com/google-login-callback"; // URL chuyển hướng của plugin WordPress
+const REDIRECT_URI = "https://proxy-si6n.onrender.com/google-login-callback"; // URL chuyển hướng của plugin WordPress
 
 app.get("/auth", (req, res) => {
   const authUrl = `https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=https://www.googleapis.com/auth/analytics.readonly`;
